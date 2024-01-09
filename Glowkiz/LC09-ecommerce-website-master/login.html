@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Box icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <!-- Custom StyleSheet -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="icon" href="images/logo.png" type="image">
+
+    <title>Login</title>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <div class="top-nav">
+      <div class="animated-text" >
+        <div class="line"> <p>Welcome to Our Online Beauty Haven!</p> </div>
+        <div class="line"> <p> Free UK Delivery on Orders Over £40 - Shop Now!</p> </div>
+      </div>
+    </div>
+    <div class="navigation">
+      <div class="nav-center container d-flex">
+        <a href="index.html" class="logo"> <img src="images/logo.png" alt="logo"> </a>
+        <ul class="nav-list d-flex">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">About us</a>
+          </li>
+          <li class="nav-item" >
+            <a href="#" class="nav-link">Products</a>
+            <ul class="dropdown">
+              <li> <a href="">Dry botanical cay mask</a> </li>
+              <li><a href="">Cream location </a></li>
+              <li> <a href="">ubtan</a></li>
+              <li> <a href="">All type of product</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">News</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">Contact</a>
+          </li>
+          <li class="icons d-flex">
+            <a href="login.html" class="icon">
+              <i class="bx bx-user"></i>
+            </a>
+            <div class="icon">
+              <i class="bx bx-search"></i>
+            </div>
+            <div class="icon">
+              <i class="bx bx-heart"></i>
+              <span class="d-flex">0</span>
+            </div>
+            <a href="cart.html" class="icon">
+              <i class="bx bx-cart"></i>
+              <span class="d-flex">0</span>
+            </a>
+          </li>
+        </ul>
+
+        <div class="icons d-flex">
+          <a href="login.html" class="icon">
+            <i class="bx bx-user"></i>
+          </a>
+          <div class="icon">
+            <i class="bx bx-search"></i>
+          </div>
+          <div class="icon">
+            <i class="bx bx-heart"></i>
+            <span class="d-flex">0</span>
+          </div>
+          <a href="cart.html" class="icon">
+            <i class="bx bx-cart"></i>
+            <span class="d-flex">0</span>
+          </a>
+        </div>
+
+        <div class="hamburger">
+          <i class="bx bx-menu-alt-left"></i>
+        </div>
+      </div>
+    </div>
+    <!-- Login -->
+    <div class="container">
+      <div class="login-form">
+        <form action="">
+          <h1>Login</h1>
+          <p>
+            Already have an account? Login in or
+            <a href="signup.html">Sign Up</a>
+          </p>
+
+          <label for="email">Email</label>
+          <input type="text" placeholder="Enter Email" name="email" required />
+
+          <label for="psw">Password</label>
+          <input
+            type="password"
+            placeholder="Enter Password"
+            name="psw"
+            required
+          />
+
+          <label for="psw-repeat">Repeat Password</label>
+          <input
+            type="password"
+            placeholder="Repeat Password"
+            name="psw-repeat"
+            required
+          />
+
+          <label>
+            <input
+              type="checkbox"
+              checked="checked"
+              name="remember"
+              style="margin-bottom: 15px"
+            />
+            Remember me
+          </label>
+
+          <p>
+            By creating an account you agree to our
+            <a href="#">Terms & Privacy</a>.
+          </p>
+
+          <div class="buttons">
+            <button type="button" class="cancelbtn">Cancel</button>
+            <button type="submit" class="signupbtn">Login</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+ <!-- Footer -->
+ <footer class="footer">
+  <div class="row">
+    <div class="col d-flex">
+      <h4>INFORMATION</h4>
+      <a href="">About us</a>
+      <a href="">Core Values</a>
+      <a href="">Our Ingredient</a>
+      <a href="">Our Products</a>
+      <a href="">Reviews</a>
+      <a href="">Blogs</a>
+      <a href="">News</a>
+    </div>
+    <div class="col d-flex">
+      <h4>Other Links</h4>
+      <a href="">FAQs</a>
+      <a href="">Get in Touch</a>
+      <a href="">Delivery & Return</a>
+      <a href="">Privacy Policy</a>
+      <a href="">Refund Policy</a>
+      <a href="">Terms & Conditions</a>
+    </div>
+    <div class="col d-flex">
+      <div id="icons">
+        <span><i class="bx bxl-facebook-square"></i></span>
+        <span><i class="bx bxl-instagram-alt"></i></span>
+        <span><i class="bx bxl-tiktok"></i></span>
+        <span><i class="bx bxl-youtube"></i></span>
+        <span><i class="bx bxl-linkedin"></i></span>
+        <span><i class="bx bxl-whatsapp"></i></span>
+      </div>
+
+    </div>
+  </div>
+</footer>
+
+    <!-- Custom Script -->
+    <script src="./js/index.js"></script>
+  </body>
+</html>
