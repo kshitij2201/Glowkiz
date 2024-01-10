@@ -117,6 +117,77 @@
 
 
 
+            <!-- Contact form -->
+    <section class="contact-form">
+      <div class="form-container">
+          <h2>Your Details</h2>
+          <form action="#" method="POST">
+
+              <label for="name">Full Name: </label>
+              <input type="text" id="name" name="name" required>
+
+              <label for="email">Email: </label>
+              <input type="email" id="email" name="email" required>
+
+              <label for="phone">Phone: </label>
+              <input type="tel" id="phone" name="phone">
+
+              <label for="ordNo">Order Number: </label>
+              <input type="number" id="ordNo" name="ordNo">
+
+              <label for="topic">Select Topic: </label>
+              <select name="" id="topic">
+                  <option value="Delivery">Delivery</option>
+                  <option value="Order Query">Order Query</option>
+                  <option value="Product Query">Product Query</option>
+                  <option value="Other">Other</option>
+              </select>
+
+
+              <label for="message">Message: </label>
+              <textarea id="message" name="message" rows="4" required></textarea>
+
+              
+              <button onclick="myFunction()" class="submit">Submit </button>
+
+              <p id="demo"></p>
+
+              <script>
+                  function myFunction() {
+                      var txt;
+                      if (confirm("Thank You! Your message has been sent")) {
+                          txt = "Form Submitted!";
+                      } else {
+                          txt = "Cancelled!";
+                      }
+                      document.getElementById("demo").innerHTML = txt;
+                  }
+              </script>
+          </form>
+      </div>
+  </section>
+
+  <!-- Company contact info -->
+  <section class="contact-info">
+      <h2>Contact Information</h2>
+      <address>
+          124 City Road, London, EC1V 2NX
+          <br>
+          Phone: <a href="tel:1234567890">0044 787754 5512 </a><br>
+          Email: <a href="mailto:info@example.com">info@glowkiz.co.uk</a>
+      </address>
+  </section>
+  <section class="store-hours">
+      <h2>Store-Hours</h2>
+      <p>
+          Monday - Friday: 10am-5pm GMT <br>
+          Weekends: 10am-3pm GMT<br>
+          Closed Bank Holidays
+
+      </p>
+
+  </section>
+
 
 
 
